@@ -63,11 +63,11 @@ QR_CODE = environ.get('QR_CODE', 'Your_Qr_Code')    # QR code image for payments
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
-    10: "7day",
-    20: "15day",    
-    40: "1month", 
-    55: "45day",
-    75: "60day",
+    7: "7day",
+    15: "15day",    
+    30: "1month", 
+    45: "45day",
+    60: "60day",
 }  # Premium plans with their respective durations in days
 
 # ============================
@@ -120,9 +120,9 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/technokrrish') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/technokrrishyt') # Owner link for the bot
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/ip_update') # Update channel link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+4y2koegTL1cyNGE1') # Group link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/akmoviestelugu') # Owner link for the bot
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/akmoviestelugu') # Update channel link for the bot
 
 # ============================
 # User Configuration
